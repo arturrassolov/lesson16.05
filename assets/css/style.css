@@ -5,54 +5,41 @@
 }
 :root {
   font-family: sans-serif;
-  font-size: 18px;
-}
-a {
-  text-decoration: none;
-}
-.container {
-  display: flex;
-  flex-flow: column nowrap;
-  max-width: 1000px;
-  min-height: 100vh;
-  margin: auto;
+  font-size: 17px;
+  line-height: 1.2em;
 }
 .header {
   display: flex;
-  padding: 10px;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1.5em;
   align-items: center;
-  background-color: aqua;
+  justify-content: space-between;
+  background-color: #262626;
 }
 .logo {
-  font-size: 2.5em;
+  font-family: "Comic Neue", cursive;
+  margin: 0 15px;
+  font-size: 1.3em;
+  color: #fffaf5;
 }
 .list {
-  list-style: none;
   display: flex;
 }
 .list-item {
-  display: inline-block;
+  list-style: none;
 }
 .link {
+  box-sizing: border-box;
   display: block;
-  padding: 0.7em;
+  padding: 15px;
+  text-decoration: none;
+  color: #faf8fa;
 }
-.main {
-  flex-grow: 1;
-  padding: 10px;
-  background-color: yellowgreen;
-  text-align: center;
-}
-.main-article {
-  padding: 10px;
-  border: 1px solid blue;
-}
-.main-article + .main-article {
-  margin-top: 1em;
-}
-.footer {
-  padding: 10px;
-  background-color: aqua;
-  text-align: center;
+.btm {
+  margin: 0 15px;
+  border: 2px solid #fefefe;
+  border-radius: 4px;
+  padding: 1em;
+  background-color: inherit;
+  color: #eff3f3;
 }
